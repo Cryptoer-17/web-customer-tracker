@@ -39,12 +39,14 @@ public class Customer {
 		this.firstName = firstName;
 	}
 
-	public String getLast_name() {
+	
+
+	public String getLastName() {
 		return lastName;
 	}
 
-	public void setLast_name(String last_name) {
-		this.lastName = last_name;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public String getEmail() {
@@ -57,7 +59,7 @@ public class Customer {
 
 	@Override
 	public String toString() {
-		return "Customer [id=" + id + ", firstName=" + firstName + ", last_name=" + lastName + ", email=" + email
+		return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email
 				+ "]";
 	}
 	

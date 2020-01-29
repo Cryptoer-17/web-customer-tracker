@@ -38,7 +38,7 @@
 					</tr>
 					<tr>
 						<td><label>Last name:</label><td>
-						<td><form:input path="last_name"/></td>
+						<td><form:input path="lastName"/></td>
 					</tr>
 					<tr>
 						<td><label>Email:</label><td>
